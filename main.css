@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;600&display=swap');
+
+:root {
+    --font-para: 'IBM Plex Sans KR', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: var(--font-para); */
+}
+
+
+.color-1 {
+    color: #234A80 !important;
+}
+
+#main {
+
+}
+/* HEADER */
+#header {
+    background-color: #Fff;
+    height: 60px;
+    font-size: 18px; 
+    padding: 18px 0px;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+.container .logo {
+
+}
+
+.container .menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #888;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 600;
+}
+.menu > li > a:hover {
+    color: #26A9E0;
+    border-bottom: 3px solid #26A9E0;
+}
+.dow-lang {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.dow-lang .dow {
+    border: 2px solid #26A9E0;
+    border-radius: 8px;
+    color: #26A9E0;
+    padding: 6px 4px;
+}
+
+
+.dow-lang > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dow-lang .kor {
+    opacity: 0.6;
+}
+/* BANNER */
+#banner {
+    margin-top: 80px;
+}
+
+
+
+.banner-p {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.banner-p .upper {
+    color: #26A9E0;
+}
+
+span {
+    color: #234A80 !important;
+}
+
+.banner-img {
+    overflow: hidden;
+   
+}
+
+.btn {
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: #20AADB;
+    display: block;
+    border: 1px #20AADB solid;
+    color: #Fff;
+    font-weight: 700;
+
+}
+
+.ellipse {
+    margin-top: 24px;
+    text-align: center;
+}
+.ellipse .e1 {
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.ellipse .e2 {
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+/* Services */
+#services {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+.header-services {
+    margin: auto auto;
+    text-align: center;
+
+}
+
+.sub-head-ser {
+    color: #1A94FF;
+    text-transform: uppercase;
+}
+
+.services-content{
+    margin-top: 50px;
+}
+
+.sub-services-content {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #1A94FF;
+    box-shadow: 5px 10px 18px #888;;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.ser-btn {
+    margin-top: 50px; 
+    display: flex;
+    justify-content: center;
+}
+
+/* Our Performance */
+#our {
+    background-image: url(./img/our.png);
+    margin-top: 50px;
+}
+
+.header-our {
+   text-align: center;
+   padding: 40px;
+}
+
+.nav-our {
+    text-align: center;
+}
+
+.number-our {
+    color: #20AADB;
+}
+
+.p-our {
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+
+/* Works */
+#works {
+
+}
+
+.work-header {
+    text-align: center;
+    padding: 30px;
+}
+
+.work {
+    margin-top: 20px;
+}
+
+.work-title {
+    margin-top: 20px;
+
+}
+
+.work-items {
+
+}
+
+.work-item {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    opacity: 0.6;
+}
+
+.work-item > li {
+    border: 1px solid #1A94FF;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+.work-item .item1 {
+    border-radius: 8px;
+    background: #20AADB;
+    display: block;
+    border: 1px #20AADB solid;
+    color: #Fff;
+}
+
+.work-img {
+    /* position: relative; */
+}
+
+.work-img-1 {
+    display: block;
+    /* position: relative; */
+}
+
+.sub-work {
+    /* position: absolute; */
+    background-color: #1D82AC;
+    background:#1D82AC url(./img/work5.png) center/cover ;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.sub-work-head {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    gap: 15px;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.sub-work-foot {
+    margin-top: 400px;
+    margin-bottom: 0;
+    padding: 25px;
+    /* box-shadow: 1px 1px 1px #000; */
+}
+
+.nav-work {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.nav-work > img {
+    background-color: #F6F6F9;
+    
+}
+
+.btn-work {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* Our Staff */
+#staff {
+    background-color: #E9F6FC;
+    margin-top: 80px;
+}
+
+.contai-staff {
+    margin-top: 30px;
+}
+
+.header-staff {
+    gap: 10px;
+}
+
+.content-staff {
+    margin-top: 50px;
+}
+
+.content-staff .col > h4 {
+    color: #26A9E0;
+    font-weight: 700;
+}
+
+.content-staff .col > p {
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.btn-staff > div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.img-staff > img {
+    /* margin-top: 30px; */
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/* Our Top */
+#our-top {
+    margin-top: 80px;
+}
+
+.header-o-top {
+    text-align: center;
+}
+
+.header-o-top > p {
+    opacity: 0.7;
+}
+
+.row > ul {
+    margin-top: 80px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* excited */
+#excited {
+    padding: 50px 0;
+    background-color: #26A9E0;
+    /* background-image: url(./img/excaited.jpg); */
+}
+
+.excited-0 {
+    display: flex;
+}
+
+.excited-0 .content-ex {
+    color: #fff;
+}
+
+.excited-0 .img-ex {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: end;
+}
+
+.btn-ex {
+    border: 1px solid #26A9E0;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: #26A9E0;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+
+/* Header */
+
+#header {
+
+}
+
+.head {
+
+}
+
+.head-title {
+    padding-bottom: 40px;
+}
+
+.location-head {
+    padding: 20px 0;
+    color: #888;
+}
+
+.p-title {
+}
+
+.p-title > p {
+    padding: 20px 0;
+    color: #888;
+}
+
+.Contact-head {
+    display: block;
+}
+
+.Contact-head .p-title > p > i{
+    padding: 5px;
+}
+
+.Service-head {
+
+}
+
+.Sign-head {
+    
+}
+
+.Sign-head .head-infor {
+    display: flex;
+}
+
+.Sign-head .head-infor > input {
+    width: 100%;
+    padding: 0 10px;
+    background-color:#F6F6F6;
+    border-bottom: 1px solid #888 !important;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+
+.Sign-head .head-infor > button {
+
+}
+
+.copyright {
+    background-color: #ccc;
+    opacity: 0.6;
+    padding: 20px 0;
+}
+
+.copyright-icon {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
