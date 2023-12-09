@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;600&display=swap');
+
+:root {
+    --font-para: 'IBM Plex Sans KR', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-para);
+}
+
+h2{
+    text-align: center !important;
+}
+.color-1 {
+    color: #234A80 !important;
+}
+
+.color-2{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+span {
+    color: #234A80 ;
+}
+
+#main {
+
+}
+/* HEADER */
+#header {
+    background-color: #Fff;
+    height: 60px;
+    font-size: 18px; 
+    padding: 18px 0px;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+.container .logo {
+
+}
+
+.container .menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #888;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 600;
+}
+.menu > li > a:hover {
+    color: #26A9E0;
+    border-bottom: 3px solid #26A9E0;
+}
+.dow-lang {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.dow-lang .dow {
+    border: 2px solid #26A9E0;
+    border-radius: 8px;
+    color: #26A9E0;
+    padding: 6px 4px;
+}
+
+
+.dow-lang > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dow-lang .kor {
+    opacity: 0.6;
+}
+/* BANNER */
+#banner {
+    margin-top: 80px;
+}
+
+
+
+.banner-p {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.banner-p .upper {
+    color: #26A9E0;
+}
+
+.banner-img {
+    overflow: hidden;
+   
+}
+
+.btn {
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: #20AADB;
+    display: block;
+    border: 1px #20AADB solid;
+    color: #Fff;
+    font-weight: 700;
+
+}
+
+.ellipse {
+    margin-top: 24px;
+    text-align: center;
+}
+.ellipse .e1 {
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.ellipse .e2 {
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+/* Commpany */
+#commpany{
+    margin-top: 80px;
+}
+
+.commpany-about{
+    position: relative;
+}
+
+.commpany-about .about-p1{
+    margin-top: 24px;
+}
+
+.commpany-about .about-p2{
+    margin-top: 16px;
+}
+
+.app .about-p3{
+    position: absolute;
+    border: 1px solid #26A9E0;
+    background-color: #26A9E0;
+    border-radius: 8px;
+    padding: 60px 80px;
+    top:1200px;
+    color: #Fff;
+    /* opacity: 0.9; */
+
+}
+
+/* mission */
+#mission{
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.mission-head {
+    margin-bottom: 50px;
+}
+
+.mission-1, .mission-2{
+    border-bottom: 1px solid #CCCCCC;
+    /* padding: 20px; */
+
+}
+
+.mission-3 {
+}
+
+.mission-p{
+    border-left: 1px solid #CCCCCC;
+    /* margin: 20px 0; */
+    padding: 20px;
+
+}
+
+.mission-title, .p-icon-img{
+    padding: 20px;
+}
+
+.p-mis{
+    margin-left: -48px;
+}
+
+.gap{
+    padding: 10px 0;
+}
+
+
+/* excited */
+#excited {
+    padding: 50px 0;
+    background-color: #26A9E0;
+    margin-top: 80px;
+    /* background-image: url(./img/excaited.jpg); */
+}
+
+.excited-0 {
+    display: flex;
+}
+
+.excited-0 .content-ex {
+    color: #fff;
+}
+
+.excited-0 .img-ex {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: end;
+}
+
+.btn-ex {
+    border: 1px solid #26A9E0;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: #26A9E0;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 80px;
+}
+
+.footer {
+
+}
+
+.footer-title {
+    padding-bottom: 40px;
+}
+
+.location-footer {
+    padding: 20px 0;
+    color: #888;
+}
+
+.p-title {
+}
+
+.p-title > p {
+    padding: 20px 0;
+    color: #888;
+}
+
+.Contact-footer {
+    display: block;
+}
+
+.Contact-footer .p-title > p > i{
+    padding: 5px;
+}
+
+.Service-footer {
+
+}
+
+.Sign-footer {
+    
+}
+
+.Sign-footer .footer-infor {
+    display: flex;
+}
+
+.Sign-footer .footer-infor > input {
+    width: 100%;
+    padding: 0 10px;
+    background-color:#F6F6F6;
+    border-bottom: 1px solid #888 !important;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+
+.Sign-footer .footer-infor > button {
+
+}
+
+.copyright {
+    background-color: #ccc;
+    opacity: 0.6;
+    padding: 20px 0;
+}
+
+.copyright-icon {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+
